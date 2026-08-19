@@ -45,13 +45,17 @@ ShopFlow est une boutique e-commerce française spécialisée dans la vente de p
 
 ```
 ShopflowProject/
+
 ├── Readme.md
-├── script 01_setup_and_ingest.sql
-├── script 02_semi_structured.sql.sql      ← NE PAS EXÉCUTER (contenu intégré dans le script 01)
-├── script 03_streams_tasks.sql.sql
-├── script 04_marts_and_timetravel.sql.sql
-├── script dashboard_data.sql
-└── script suspension_ressources.sql
+├──screenshots/
+├──slides/
+├──sql/
+  ├── script 01_setup_and_ingest.sql
+  ├── script 02_semi_structured.sql.sql      ← NE PAS EXÉCUTER (contenu intégré dans le script 01)
+  ├── script 03_streams_tasks.sql.sql
+  ├── script 04_marts_and_timetravel.sql.sql
+  ├── script dashboard_data.sql
+  └── script suspension_ressources.sql
 ```
 
 ## Instructions d'exécution
