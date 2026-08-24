@@ -131,7 +131,7 @@ create or replace table SHOPFLOW_DB.RAW.WEB_EVENTS
 
 
 -- Copie des données 
-
+use warehouse WH_INGEST;
 -- Customers
 copy into SHOPFLOW_DB.RAW.CUSTOMERS
 FROM (
